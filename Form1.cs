@@ -21,5 +21,15 @@ namespace llengthcalculartor
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_KeyUp(object sender, KeyEventArgs e)
+        {
+           
+        }
     }
 }
