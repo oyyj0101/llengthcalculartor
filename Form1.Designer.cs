@@ -69,8 +69,7 @@
             this.txtCM.Name = "txtCM";
             this.txtCM.Size = new System.Drawing.Size(100, 25);
             this.txtCM.TabIndex = 2;
-            this.txtCM.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            this.txtCM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyUp);
+            this.txtCM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtCM_KeyUp);
             // 
             // txtM
             // 
@@ -119,7 +118,6 @@
             this.label4.Size = new System.Drawing.Size(22, 15);
             this.label4.TabIndex = 11;
             this.label4.Text = "碼";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // txtFt
             // 
