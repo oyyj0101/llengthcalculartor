@@ -26,6 +26,7 @@ namespace llengthcalculartor
             txtM.Text = string.Format("{0:0.##########}", douCM / 100);
             //將douCM的數值除以100，也就是從公分轉換成公尺
             //透過string.Format格式化成小數點後共10位的數字，轉型成文字型態，在txtM顯示結果
+            txtKM.Text = string.Format("{0:0.##########}", douCM / 100000);
         }
     }
 }
