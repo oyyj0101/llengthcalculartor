@@ -94,5 +94,15 @@ namespace llengthcalculartor
             txtIn.Text = string.Format("{0:0.##########}", douYard / 0.0277778);
             txtFt.Text = string.Format("{0:0.##########}", douYard / 0.333333);
         }
+
+        private void btnAllClear_Click(object sender, EventArgs e)
+        {
+            txtCM.Text = "";
+            txtM.Text = "";
+            txtKM.Text = "";
+            txtIn.Text = "";
+            txtFt.Text = "";
+            txtYard.Text = "";
+        }
     }
 }
